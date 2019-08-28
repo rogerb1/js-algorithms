@@ -1,5 +1,4 @@
-This definition highlights the main properties of an algorithm which we will now consider:
-
+## Main Properties Of An Algorithm 
 - Input- An algorithm must possess 0 or more well-defined inputs supplied externally to the algorithm.
 
 - Output- An algorithm should have 1 or more well-defined outputs as desired.
