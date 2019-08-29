@@ -10,6 +10,10 @@ function isPalindrome(text) {
     return true;
 }
 
+
+
+console.log('p' !== 'p')
+
 isPalindrome('php')
 
 module.exports = isPalindrome;
