@@ -15,6 +15,7 @@ function maxRecurringChar(text) {
         if (charMap[char] > maxCharValue) {
             maxCharValue = charMap[char] // 2
             maxChar = char
+            console.log(maxChar)
         }
     }
     return maxChar
