@@ -3,6 +3,7 @@ function vowelCounter(word) {
     let count = 0;
     let vowels = ['a', 'e', 'i', 'o', 'u'];
     for (let letter of word.toLowerCase()) {
+        console.log(letter);
         if (vowels.includes(letter)) {
             count += 1;
         }
