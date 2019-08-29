@@ -1,13 +1,24 @@
 /*
-    Stack data structure: LIFO Last In first Out
+    Stack: data structure: LIFO Last In first Out
     constructor[x]
     push[x]
     pop[x]
     getSize[x]
     isEmpty[x]
     peek[x]
-    print[]
+    print[x]
 
+    A Stack Implementation is faster than the array method.
+    Usually this will have a better run time for larger data sets.
+    You can use the Array methods as well.
+
+    let arrayStack = [];
+    arrayStack.push(1);
+    arrayStack.push(1);
+    console.log(arrayStack.pop())
+    console.log(arrayStack);
+
+    
 */
 
 class Stack {
